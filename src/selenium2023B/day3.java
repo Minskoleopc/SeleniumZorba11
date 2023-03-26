@@ -23,7 +23,6 @@ public class day3 {
 		Thread.sleep(2000);
 		
 		// Assertion
-		
 		boolean errorMessage = driver.findElement(By.id("name")).isDisplayed();
 		
 		if(errorMessage) {
@@ -33,6 +32,7 @@ public class day3 {
 			System.out.println("Testcase fail");
 		}
 		
+		// comments
 		
 		
 		
