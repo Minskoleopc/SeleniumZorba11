@@ -75,24 +75,24 @@ public class day4 {
 		
 		
 		// Forgot password
+		// Testcase 4
 		
-		driver.findElement((By.cssSelector("p[class=\"oxd-text oxd-text--p orangehrm-login-forgot-header\"]"))).click();
-		String currentUrl = driver.getCurrentUrl();
-		System.out.println(currentUrl);
 		
-		if(currentUrl.contains("requestPasswordResetCode")) {
-			System.out.println("Testcase pass");
-		}
-		else {
-			System.out.println("Testcase fail");
-		}
-		driver.close();
+//		driver.findElement((By.cssSelector("p[class=\"oxd-text oxd-text--p orangehrm-login-forgot-header\"]"))).click();
+//		String currentUrl = driver.getCurrentUrl();
+//		System.out.println(currentUrl);
+//		
+//		if(currentUrl.contains("requestPasswordResetCode")) {
+//			System.out.println("Testcase pass");
+//		}
+//		else {
+//			System.out.println("Testcase fail");
+//		}
+//		driver.close();
 		
 		
 
 	}
 
-	// WebElement -- methods??
-	
-	
+		
 }
