@@ -143,18 +143,19 @@ public class radioButtonCheckBox {
 //		driver.quit();
 		
 		
-
+//		WebElement e = driver.findElement(By.cssSelector("#dropdowm-menu-1"));
+//		Select dropOne = new Select(e);
+//		dropOne.selectByValue("sql");
+//		Thread.sleep(2000);
+//		System.out.println(dropOne.getOptions());
+//		
 		
-		WebElement e = driver.findElement(By.cssSelector("#dropdowm-menu-1"));
-		Select dropOne = new Select(e);
-		dropOne.selectByValue("sql");
-		Thread.sleep(2000);
-		System.out.println(dropOne.getOptions());
-		List <WebElement>  e1 = dropOne.getOptions();
-		for(int i = 0 ; i < e1.size() ;i++) {
-			System.out.println(e1.get(i).getText());
-		}
 		
+//		List <WebElement>  e1 = dropOne.getOptions();
+//		for(int i = 0 ; i < e1.size() ;i++) {
+//			System.out.println(e1.get(i).getText());
+//		}
+//		
 		
 		
 		
