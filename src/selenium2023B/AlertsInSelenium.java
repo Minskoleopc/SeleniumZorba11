@@ -81,8 +81,8 @@ public class AlertsInSelenium {
 		/*
 		 * 
 		 * //		Alert alert = driver.switchTo().alert();
-		   //		alert.accept();
-           //		alert.dismiss();
+		  //		alert.accept();
+          //		alert.dismiss();
 		 * 
 		 * 
 		 * 
