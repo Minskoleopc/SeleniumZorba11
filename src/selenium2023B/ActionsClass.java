@@ -59,6 +59,16 @@ public class ActionsClass {
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		driver.quit();
 
 	}
